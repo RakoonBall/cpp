@@ -6,6 +6,12 @@ int main(int agrc, char *argv[]){
     *p = 5;
     delete p;
     p = new int(10);
+    
+    //declaring arrays
+    int n; cin>>n;
+    int *arr = new int[n];
+    delete arr;
+
 
     return 0;   
 }
